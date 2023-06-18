@@ -1,0 +1,34 @@
+%------------------ Table des matières ------------------
+ 
+ %%% TABLE DES MATIERES
+%\thispagestyle{fancy}
+%%\renewcommand*\contentsname{Sommaire}
+\tableofcontents
+\addcontentsline{toc}{chapter}{Sommaire}
+\vspace{-2cm}
+
+
+%------------------ ABBREVIATIONS ------------------
+
+\newglossaryentry{fondue}
+{
+	name=fondue,
+	description={is a blablabla}
+}
+\printacronyms
+
+\Gls{fondue} is a blb blob bla
+
+\newacronym{ia}{IA}{Intelligence Artificielle}
+\newacronym{svd}{SVD}{Singular Value Decompostition}
+
+
+%------------------ Table des figures ------------------
+\listoffigures
+ \addcontentsline{toc}{chaper}{Table des figures}	
+
+
+
+%------------------ Table des tableaux ------------------
+\listoftables
+ \addcontentsline{toc}{chaper}{Liste des tableaux}	

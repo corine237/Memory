@@ -1,0 +1,511 @@
+\chapter{Présentation du projet}
+
+\section{Compréhension du sujet }
+
+\subsection{Contexte}
+
+	La complexité de résolution des exercices de certains problèmes, généralement due à la non compréhension de la matière entraîne une démotivation de l’apprenant et le pousse parfois à abandonner. Avec les avancées technologiques ces dernières années, de nombreux systèmes d’apprentissage en ligne (MOOC, applications de e-learning, …) sont proposés. On s’attendait donc à ce que ce problème soit réglé, mais ce n’est pas toujours le cas du fait qu’ils ne touchent pas réellement le véritable problème. Toutefois, la démocratisation de ces outils d’apprentissage jusqu’alors réduits au contexte du laboratoire, a augmenté la quantité de données utilisateurs en contexte réel disponible et permet d’utiliser les techniques d’intelligence artificielle pour améliorer les systèmes d’apprentissage adaptatif. \\
+L’énorme difficultés qu’ont les élèves en cours de mathématiques est due au cumul des lacunes sur plusieurs notions. Ce qui rends l’apprentissage très difficile. Or l’enseignant en classe ne peut pas à la fin de chapitre suivre les difficultés de tous les élèves. Notons que nous avons des classes de 70-80 élèves par classe dans les grandes métropoles. S’il doit suivre tous les élèves au cas par cas, le programme ne tiendrai pas sur les délais impartis. 
+
+\subsection{Délimitation du sujet et hypothèse de travail }
+	
+	Notre travail se limitera à l’application l’intelligence artificielle et de l’apprentissage adaptatif à l'éducation. Notre hypothèse de travail consistera à : 
+	\begin{itemize}
+		\item S’appuyer sur les manuels de mathématique de 6e pour identifier les ensembles de connaissance les plus pertinents et créer des tests à partir de celles-ci afin de stimuler l’engagement de l’apprenant; 
+		\item Recommander les cours se référant aux manuels de mathématiques appropriés en fonction des erreurs de l’apprenant.
+	\end{itemize}
+
+\section{Etude de l’existant}
+
+\subsection{Description du système pédagogique existant au Cameroun }
+	Nous ne saurions débuter ce travail sans avoir une idée claire et précise sur l’existant tel qu’il soit. Tout au loin d’une année, est proposé à l’école en générale un programme de mathématiques spécifique à chaque classe dont la 6e en particulier. Celui-ci est subdivisé en chapitres portant sur des concepts précis. A la fin de l’apprentissage de chaque concepts, des exercices sont proposés par certains enseignants, pour d’autres, ceci se fait à la fin des chapitres. Tout ceci en suivant un canevas qui doit être terminé dans les temps impartis. 
+
+\subsection{Critique de l’existant}
+Plusieurs problèmes sont à observer dans la compréhension de l’éducation  scolaire de l’apprenant: \\
+	- Vu le temps imposé pour la gestion du programme de mathématique, l’enseignant ne s'arrêtent pas à la difficulté de chaque élève ; \\
+	- Manque de suivi de tous les élèves;\\
+	- Temps énorme pris pour l’explication des notions la plus part comprises par l’apprenant.
+
+
+%\subsection{Benchmark des solutions existantes à l’ international}
+%	Il est question ici de noter les points forts et points faibles de ces dernières afin d’ajuster nos objectifs.
+%	
+%
+\section{Proposition de solution et approche scientifique }
+
+\subsection{Ébauche de solution }
+	Après avoir mené une étude approfondie sur les solutions envisageables et afin d’offrir une solution répondant au mieux aux attentes fixées, il serait intéressant de conserver les aspects liés à la stabilité, aux systèmes tutorés intelligents énumérés plus haut tout en offrant un produit simple à l’utilisation avec une interface optimisant la concentration de l’utilisateur.
+	
+\noindent
+
+	\textbf{NB: } Ce mémoire a également une portée académique, d’où il sera judicieux de prendre aussi en compte une implémentation semi-partielle de cette plateforme mobile. 
+\subsection{Question de recherche }
+	Elle consiste à poser la question centrale qui servira de fil conducteur. La question de recherche pour notre étude est la suivante: Comment détecter les lacunes de l’élève et lui recommander les cours de mathématiques adaptés à ses difficultés ? 
+\subsection{Choix et intéret du sujet }
+	Le contexte dans lequel nous nous trouvons et la problématique nous oriente vers un choix de thème qui est: ETUDE ET REALISATION D’UN SYSTÈME DE RECOMMANDATION POUR APPRENTISSAGE DES MATHÉMATIQUES EN CLASSE DE 6E. Une plateforme mobile permettra non seulement de personnaliser l’expérience mais également de rajouter l’aspect réalité augmentée plus tard. Le choix de l’intelligence artificielle est relatif aux nombreux avantages qu’il offre, notamment : \\
+	- Elle touche tous les domaines, allant des plus simples aux plus complexes \\
+	- Augmente la productivité \\
+	- Réduit des erreurs \\
+	- Personnalise l'expérience utilisateur
+
+\subsection{Approche scientifique}
+	Il s’agit ici d’un aperçu de la façon dont une recherche donnée est effectuée. Elle définit les techniques ou les procédures utilisées pour identifier et analyser les informations concernant un sujet de recherche spécifique. La méthodologie de recherche a donc à voir avec la façon dont un chercheur conçoit son étude de façon à pouvoir obtenir des résultats valides et fiables et atteindre ses objectifs de recherche. La technique de recherche désigne l’ensemble des démarches que l’on suit pour démontrer et découvrir la vérité. Celle que nous utilisons est l’étude empirique qui représente une technique de recherche qui s’appuie sur l’observation et l’expérience.
+	
+\noindent
+
+	L’étude empirique recueille des informations appelées “données empiriques”. Après analyse, ces données doivent permettre au chercheur de tester et répondre à une ou plusieurs hypothèses de départ. Cette technique de collecte de données ne se base pas sur une approche théorique ou un raisonnement abstrait, il s’agit de tester des hypothèses concrètement.\\
+	Pour mener une étude empirique, le chercheur a le choix entre deux méthodes: 
+\begin{itemize}
+	\item L’étude qualitative, dont l’objectif est d’interroger un échantillon pertinent (des experts par exemple) qui peut apporter des informations précises et de grande qualité sur un sujet précis. L’échantillon peut être très restreint (une ou deux personnes).
+	\item L’étude quantitative : dont on cherche à collecter une grande quantité de données (échantillon important) et repérer des régularités, afin de proposer des conclusions scientifiquement viables.
+\end{itemize}
+	Chacune de ces méthodes possède plusieurs techniques pour mener l’étude empirique. 
+
+\subsubsection{Méthode de recherche}
+\paragraph{Les entretiens de recherche } ~~\\
+	
+\noindent
+	
+	A la fois à caractère qualitatif et quantitatif, les entretiens de recherche comportent 03 types d’entretien dont:
+\begin{itemize}
+	\item \textbf{L’entretien directif:} encore appelé entretien normalisé, est à mi-chemin entre l’étude qualitative et l’étude quantitative. Il permet de collecter des données à travers des entretiens aux réponses courtes et fermées.
+	\item \textbf{L’entretien semi-directif:} encore appelé entretien approfondi, récolte des informations grâce à des questions et des relances de l’enquêteur durant l’entretien.
+	\item \textbf{L’entretien non directif:} encore appelé entretien libre, est utilisé pour obtenir des informations très détaillées sur un sujet général. Ici, l’enquêteur donne un thème et une question générale et laisse la parole libre à la personne interrogée. Celle-ci aura toute la liberté de détailler son point de vue sur la question. Les paroles de la personne interrogée doivent être utiles pour le chercheur afin de valider ou invalider les hypothèses de départ.
+\end{itemize}
+	
+\paragraph{L'observation} 
+
+\noindent
+
+	L’observation est une méthode de recherche très populaire pour mener une étude qualitative. Qu’elle soit participante, non participante, structurée ou non-structurée, l’observation permet de collecter des informations sur une situation, un phénomène ou un fait. L’observation donne l’occasion à l’enquêteur d’obtenir par lui-même des données informatives qui lui sont utiles pour confirmer ou infirmer ces hypothèses de départ.
+
+\paragraph{Le focus group}
+
+\noindent
+
+Encore appelé groupe de discussion, le focus group est une méthode de recherche qualitative qui rassemble un groupe de personnes sur un sujet prédéterminé. 
+
+\noindent
+
+	À travers les questions de l’enquêteur, les personnes donnent leur avis, échangent et débattent. Le chercheur prend des notes qui devront lui servir à comprendre une situation ou un phénomène qu’il étudie.\\
+
+\noindent
+
+	Après avoir mené un focus group, l’enquêteur doit analyser les données informatives en sa possession. Sa conclusion doit lui permettre de répondre à ses hypothèses de départ.
+	
+\paragraph{L'enquête de terrain} 
+
+\noindent
+
+	À mi-chemin entre l’étude qualitative et l’étude quantitative, l’enquête de terrain est une méthode de recherche assez commune. Elle permet de collecter des données pour un mémoire.\\
+À travers des entretiens, des enquêtes ou des observations, l’enquêteur entre directement dans le champ pour collecter les données dont il a besoin.
+
+\noindent
+
+En entrant dans le cadre quotidien et naturel (comme une salle de classe, une association, ou une entreprise), le chercheur peut confirmer ou non ses hypothèses de départ.
+
+\paragraph{Le sondage} 
+
+\noindent
+
+	C’est une méthode qui permet à l'enquêteur de récolter un avis général d’un échantillon représentatif de personnes. 
+
+\noindent
+
+Souvent composé d’une seule grande question, le sondage permet de mesurer un avis général. Grâce à une analyse statistique mise en page sous la forme d’un tableau ou d’un graphique, le chercheur peut tirer des conclusions qui apporteront des éléments de réponse à ses hypothèses initiales.
+
+\paragraph{Le questionnaire } ~~\\
+
+\noindent
+
+	La technique du questionnaire permet de poser un ensemble de questions à un échantillon représentatif de personnes sur un sujet donné.
+En posant plusieurs questions sur un sujet, le questionnaire permet à l’enquêteur d’analyser statistiquement l’avis de personnes de façon plus précise.
+
+\begin{table}[H]
+	\caption{Tableau récapitulatif des méthodes de recherche}
+\begin{tabular}{|l|l|l|ll}
+\cline{1-3}
+                                                                                 & \textbf{Méthodes qualitatives}                                                                                                                                                                         & \textbf{Méthodes quantitatives}                                                                                                                                            &  &  \\ \cline{1-3}
+\textbf{Techniques}                                                              & \begin{tabular}[c]{@{}l@{}} \\ -   Les entretiens (directif, \\     semi-directif, non directif).\\  -   L’observation\\  -   Le focus group \\  -   L’enquête de terrain\end{tabular}                     & \begin{tabular}[c]{@{}l@{}}-   Le sondage\\  -   Le questionnaire\end{tabular}                                                                                             &  &  \\ \cline{1-3}
+\textbf{\begin{tabular}[c]{@{}l@{}}Caractéristiques\\  des données\end{tabular}} & \begin{tabular}[c]{@{}l@{}}.\\ -  Données écrites  \\  -  Données d’entretien et \\      d’observation.\\  -  Données de documents \\     (prise de notes).\\  -  Données audio-visuelles\end{tabular} & \begin{tabular}[c]{@{}l@{}}-   Données chiffrées \\  -   Données statistiques\end{tabular}                                                                                 &  &  \\ \cline{1-3}
+\textbf{Analyse}                                                                 & \begin{tabular}[c]{@{}l@{}}-   Analyse textuelle : \\      retranscription et analyse \\      écrite de l’enquêteur.\end{tabular}                                                                      & \begin{tabular}[c]{@{}l@{}} \\ -   Analyse statistique : \\     l’enquêteur reporte \\     ses données dans un \\     tableau ou un \\     graphique statistique.\end{tabular} &  &  \\ \cline{1-3}
+\textbf{Interprétation}                                                          & \begin{tabular}[c]{@{}l@{}}-  Interprétation écrite des \\     régularités et des grands \\     thèmes observés.\end{tabular}                                                                          & \begin{tabular}[c]{@{}l@{}}-  Interprétation \\    statistique pouvant \\    être complétée par une\\    conclusion écrite.\end{tabular}                                   &  &  \\ \cline{1-3}
+\end{tabular}
+\end{table}
+
+\noindent
+
+Pour notre mémoire, notre utiliserons la recherche empirique de recherche de terrain car: 
+C’est la méthode la plus utilisée en collecte de données pour un mémoire, 
+Nous avons besoin d’effectuer une descente dans les salles de classe afin d’évaluer les difficultés des apprenants afin de construire un modèle autour de lui.
+
+\subsubsection{Méthode d’échantillonnage}
+	Lorsqu’on souhaite effectuer un sondage ou une enquête, il n’est pas toujours possible d’interroger chaque membre de la population de par des contraintes géographiques, monétaires ou temporelles.
+
+\noindent
+
+	Par contre, il est tout de même possible d’en apprendre plus à propos de la population visée notamment en analysant un échantillon. Pour ce faire, il est primordial de choisir la bonne méthode de construction d'un tel échantillon. 
+	
+\noindent
+
+	Un échantillon est un sous-groupe de personnes ou d'objets faisant partie de la population ou de l'inventaire. Il est dit représentatif quand il représente la population ou l'inventaire le plus fidèlement possible de par ses caractéristiques et sa quantité. 
+	\begin{figure}[hbtp]
+		\centering
+		\includegraphics[scale=0.8]{idepe.png} 
+		\caption{Illustration de la différence entre personne, échantillon et population}
+		\label{Illustration de la différence entre personne, échantillon et population}
+	\end{figure}
+
+\noindent
+	
+	Il est nécessaire d'identifier le plus précisément possible la population ciblée avant d’effectuer la recherche d’informations. Dans le cas contraire, on risque d’obtenir des résultats qui ne correspondent pas à ce qu’on recherche.
+	
+\noindent
+
+	Il existe 02 principaux types d’échantillonnage. Ceux-ci comportent à leur tour des méthodes permettant de créer un échantillon dans une population. En fonction du contexte et des besoins de l'étude, chaque méthode a ses avantages et ses inconvénients.
+	
+	\paragraph{L’échantillonnage probabiliste ou aléatoire} ~~\\
+	Celui-ci fait référence à la sélection d’un échantillon d’une population lorsque celle-ci repose sur le principe de la randomisation, c’est-à-dire la sélection au hasard ou aléatoire. 
+
+\noindent
+
+Ses méthodes d’échantillonnage sont les suivantes: 
+	\begin{itemize}
+		\item	Échantillonnage aléatoire simple : 
+	\end{itemize}
+	Chaque élément de la population de référence a une chance égale d’être sélectionné pour constituer le panel d’enquête dans ce processus d’échantillonnage. De façon plus générale, cette méthode présente un avantage et un inconvénient majeurs.\\ 
+	→ \textit{Avantage:} De par les différentes lois en probabilité, cet échantillon sera représentatif de la population.\\
+	→ \textit{Inconvénient:} Il faut avoir la liste complète de la population pour ensuite faire le tirage au sort.
+	\begin{itemize}
+		\item	Échantillonnage systématique : 
+	\end{itemize}
+	Chaque élément qui compose l'échantillon est choisi de façon régulière, selon un intervalle régulier, à l'intérieur de la population ciblée. \\
+→ \textit{Avantage:} - On peut facilement prédéterminer la taille et les éléments faisant partie de l'échantillon.
+L'échantillon est distribué dans des proportions égales dans la population.\\
+→ \textit{Inconvénient:} Il faut avoir la liste complète de la population pour ensuite faire le tirage au sort.
+	\begin{itemize}
+		\item	Échantillonnage stratifié : 
+	\end{itemize}
+	Cette méthode se révèle judicieuse lorsque les chercheurs ont une certaine connaissance sur la population cible et décident de la subdiviser (ou stratifier) pour donner un sens à leur recherche.
+
+\noindent
+
+Par exemple, si l’on effectue une recherche sur les habitudes de transport d’un certain ensemble de personnes, il peut être judicieux de séparer les répondants qui possèdent une voiture de ceux qui n’en ont pas.\\
+	→ \textit{Avantage:} - Cette méthode assure une assez bonne représentativité de la population  dû à son critère de proportionnalité.\\
+	→ \textit{Inconvénient:} Il faut avoir une bonne connaissance de la population afin d'établir les strates avec lesquelles il faudra travailler.
+	\begin{itemize}
+		\item	Échantillonnage en grappe 
+	\end{itemize}
+Généralement réalisé sur deux niveaux, c’est-à-dire en sélectionnant en grappe (sous-groupes de la population), puis en sélectionnant à nouveau de manière aléatoire au sein de cette grappe d’individus. \\
+	→ \textit{Avantages: } Il n’est pas nécessaire d’avoir une liste officielle de tous les membres de la population ciblée;
+Idéal pour sonder une population qui est géographiquement étendue.
+	→ \textit{Inconvénients: } - Généralement, les éléments d’une même grappe possèdent des caractéristiques semblables sans nécessairement être celles de la population ciblée.\\
+	- Il est très difficile de prédire la taille de l’échantillon étant donné que les grappes n’ont pas toutes la même quantité d’individus.
+	
+	\paragraph{L’échantillonnage non probabiliste}
+	\begin{itemize}
+		\item	Échantillonnage de commodité  
+	\end{itemize}
+	Ici, les personnes ou éléments des échantillons sont sélectionnés en fonction de leur disponibilité. Par exemple, si vous effectuez une enquête auprès d’étudiants sur un campus universitaire, opter pour l’échantillonnage de commodité revient à interroger les apprenants qui se trouvent sur le campus, qui ont du temps libre et qui sont disposés à répondre à votre questionnaire.
+	\begin{itemize}
+		\item	Échantillonnage par quotas  
+	\end{itemize}
+	Cette approche vise à obtenir une subdivision de la population (tout comme la méthode probabiliste stratifiée) en précisant qui doit être recruté pour l’enquête sur la base de divers critères.
+	\begin{itemize}
+		\item	Échantillonnage raisonné  
+	\end{itemize}
+	Cette technique est également connu sous le nom de sampling par jugement car les participants sont choisis par les chercheurs en fonction de : 
+	
+\noindent
+
+- Leurs connaissances 
+
+\noindent
+
+	- Leur compréhension de la question de recherche 
+
+\noindent
+
+	- Leurs objectifs 
+
+	\begin{itemize}
+		\item	Échantillonnage référence ou boule de neige   
+	\end{itemize}
+	Cette méthode se révèle très utile lorsque l’équipe de chercheurs n’a pas de connaissances approfondies de la population cible, et donc peu de moyen de recruter de nombreux participants. Par contre, cette technique introduit un biais car cela favorise une homogénéité de l’échantillon. Certains groupes seront plus représentés que d’autres et des personnes plutôt isolées ne seront pas du tout interrogées.\\
+
+\noindent
+
+	Dans notre projet, nous utiliserons la méthode en grappes car ici, nous choisissons un certain nombre d’écoles (grappes) auxquelles l’on effectue les tests à chaque élève (échantillon). 
+	
+\section{Cadrage du projet}
+	
+	Il est difficile de parler d’un projet avant d’avoir fait une analyse détaillée du travail à faire. Il est cependant nécessaire d’effectuer une première estimation générale pour pouvoir “cadrer le projet” et le vendre. A ce stade, il faut être très pragmatique, être capable de projeter le futur en extrapolant les expériences passées, faire preuve d’intuition pour imaginer les aspects les plus novateurs du projet, sentir les vraies difficultés. La méthode CPS permet de définir le projet en 07 points en se posant les questions essentielles. C’est dans ce sillage que nous allons dans les prochaines lignes, élaborer un CPS dans le cadre de \textbf{ l’étude et la mise sur pied d’un système de détection des lacunes et recommandation pour l’apprentissage des mathématiques en classe de 6e.}
+	
+\subsection{Le projet }
+\subsubsection{Le nom}
+	Le projet à réaliser consiste à optimiser l’apprentissage de façon à dispenser les cours (biologie, chimie, mathématiques) en se focalisant sur les lacunes de l’apprenant et notre travail portera sur la détection des lacunes et la recommandation pour apprentissage des mathématiques en classe de 6e, d’où le nom de AREDU.
+
+\subsubsection{Définition succincte }
+	Notre application sera développée pour la plateforme mobile. Elle devra être compatible non seulement avec toutes les plateformes mobiles. Elle permettra aux enseignants de définir leurs cours sous forme d’hypermédia, suivi des tests d’aptitudes pour les mettre à disposition de l’élève. Il sera ainsi possible pour l’apprenant d’évoluer à son rythme, en fonction de ses difficultés en suivant la méthode propice à sa compréhension depuis un casque OCULUS. 
+	
+\noindent
+
+	Au vu du contexte dans lequel nous sommes et du temps qui nous est imparti, nous travaillerons sur l’analyse, conception et implémentation du module de recommandation des leçons.
+
+\subsubsection{Caractéristiques essentielles}
+Notre application sera caractérisée par: 
+
+\noindent
+
+	- Une accessibilité sur tous les formats d’équipement numériques dotés d’une plateforme mobile et d’un casque de marque OCULUS. 
+	
+\noindent
+
+	- Prise en charge des éléments permettant la détection des erreurs et la recommandation du cours approprié.
+
+\subsubsection{Motifs qui sous tendent le projet}
+
+\noindent
+
+L’énorme difficulté qu’ont la plupart des élèves en cours de mathématiques est due au cumul des lacunes sur les notions; ce qui complexifie l'apprentissage. L’enseignant se retrouvant avec près de 60 à 80 élèves par classe dans la plupart des établissements, ne peut suivre les difficultés de tous les élèves à la fin de chaque chapitre ayant le souci majeur de terminer le programme dans les délais impartis. \\
+%AREDU, ayant la volonté de centrer le système éducatif sur l’apprenant, est motivé à exploiter les techniques qu’offre la technologie à cette fin, promouvoir le numérique en éducation au Cameroun et exploiter les potentiels inexploités de l’intelligence artificielle en Afrique.
+
+\subsection{Les Objectifs}
+
+\subsubsection{Objectifs techniques}
+	\begin{itemize}
+		\item[$\star$] \textit{Résultats attendus:}
+		A la fin de ce projet, nous devons avoir deux applications, une pour le web permettant à l’enseignant de charger les cours et exercices qui seront suivis et traités par les apprenants via le biais de la seconde application mobile utilisant les moteurs de réalité augmentée.
+		\item[$\star$] \textit{Objectif principal:} Proposer un système de recommandation qui identifie les besoins de l’apprenant et lui propose des leçons adaptées.
+		\item[$\star$] \textit{Objectifs secondaires: } 
+	- Améliorer les résultats de l’apprenant grâce à un apprentissage guidé et maîtrisé et augmenter sa motivation, tout en le rendant plus autonome ;
+	- Optimiser le rythme d’apprentissage: accorder moins de temps aux notions assimilées au profit de nouvelles pour lesquelles la consolidation de nouvelles connaissances est approuvée.
+	- Personnaliser l’apprentissage avec des parcours individualisés selon le profil de l’apprenant et sa progression dans le cours en ligne ; 
+	\end{itemize}
+	
+\subsubsection{Objectifs de délai}
+	L’application doit être réalisée dans un délai d’une année à compter du 24 juin 2022. 
+\subsubsection{Objectifs de coûts}
+	De nombreux modèles sont observés pour l’estimation des coûts et des ressources d’un projet. Il s’agit entre autre de :
+	
+\noindent
+
+·   La méthode descendante : reste extrêmement populaire dans la gestion de projets contemporains. L'expression « top-down » (descendante) signifie que les instructions sont données en amont. Les objectifs du projet sont fixés par la direction. 
+\noindent
+
+·   La méthode ascendante : elle se caractérise par une participation proactive de l'équipe dans le processus d'exécution du projet. Les membres de l'équipe sont invités à participer à toutes les étapes du processus de gestion. L'ensemble de l'équipe est amené à décider de la marche à suivre. 
+
+\noindent
+
+·   La méthode COCOMO : (acronyme de l'anglais Constructive Cost Model) est un modèle permettant de définir une estimation de l'effort à fournir dans un développement logiciel et la durée que ce dernier prendra en fonction des ressources allouées.
+
+\noindent
+
+%	Sachant que la majeure partie du travail est consacrée à la production du logiciel, nous nous inspirons de la méthode COCOMO pour estimer les coûts de la ressource humaine à ce niveau, lesquels coûts seront inclus dans les coûts globaux de la solution envisagée.\\%
+
+%\textbf{\textit{→ Estimation de la main d’oeuvre: }}\\
+%La main d’oeuvre a été évalué selon la méthode COCOMO \\ 
+%	- Le paiement d’un ingénieur bac+5 = 2700 XAF/h \\
+%	- Paiement journalier : 2700 * 8h = 21600 XAF/jr \\
+%	Donc, pour un travail de 50 jours, le montant total pour la ressource humaine reviendra à 21600 * 2 * 50 = 2160000 XAF \\
+%	
+%	\textbf{\textit{→ Estimation matérielle et logicielle :}}
+
+%\begin{table}[H]
+% \caption{Estimation matérielle et financière}
+%\begin{tabular}{|l|cc|}
+%\hline
+%\textbf{}   & \multicolumn{1}{l|}{\textbf{Ressources de développement}}                                                                                                                              & \multicolumn{1}{l|}{\textbf{Couts}}                                                                                              \\ \hline
+%Techniques  & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}01 ordinateur écran Syinix Core i7, \\ 16GB de RAM et 500Go de \\ Disque dur\\ 1 serveur de développement\\ 1 serveur git\end{tabular}} & \begin{tabular}[c]{@{}c@{}}500.000 + 475000 = 975000 XAF\\ \\ 80000/mois*2 = 160000 XAF\\ 80000/mois*2 = 160000 XAF\end{tabular} \\ \hline
+%Logicielles & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}MS Projet\\ Notebook Codelab\\ Internet + modem wifi\end{tabular}}                                                                      & \begin{tabular}[c]{@{}c@{}}60 euro = 39500 XAF\\ 1000/mois*4 = 40000 XAF\\ (20000/mois*12) + 40000\end{tabular}                  \\ \hline
+%Total       & \multicolumn{2}{r|}{\textbf{1674500 XAF}}                                                                                                                                                                                                                                                                                 \\ \hline
+%\end{tabular}
+%\end{table}
+%
+%Cout total du projet: \textbf{3 834 500 XAF} \\
+%
+%Malgré cet aspect financier, cet investissement vaut vraiment la peine en ce sens qu’il permet au système de : \\
+%	- Effectuer les évaluations\\
+%	- Gain de temps en se concentrant sur les problèmes réels de l’élève, \\
+%	- Une interface UX pensée pour entraîner la motivation de l’élève.
+%
+%
+\subsection{Technique }
+
+\subsubsection{Les bases sur lesquelles s’appuie notre projet }
+	Nous avons déjà eu à réaliser des projets en informatique et en particulier des applications Web, bien que les applications mobiles utilisant des intelligences artificielles soient pour nous une nouvelle expérience, nous pensons pouvoir y parvenir grâce la communauté qui est nombreuse et également l’aide des professionnels en stage notamment notre encadreur et collègues. De plus, les supports de cours, internet et des  solutions déjà existantes d’application d’évaluation en ligne citées plus haut sont des atouts majeurs renforçant cet engagement. 
+
+\subsubsection{Les difficultés principales du projet}
+	La principale difficulté de ce projet réside dans : \\
+	- La détection des lacunes de l’apprenant \\
+	- La  valeur ajoutée à notre application, c’est-à-dire qu’elle se démarque de la concurrence. 
+
+\subsubsection{Les solution de repli en cas de problème}
+	- Sauvegarder la progression de l’apprenant à chaque réussite de l’exercice\\
+	- Permettre à l’apprenant d’enregistrer les vidéos plus tard en cas de rupture de connexion
+
+\subsection{Planning }
+\subsubsection{Dates clés}
+	Pour ce projet, nous avons 02 dates clés, à savoir : \\
+		- Début: 24 juin 2022 \\
+		- Fin du: 24 juin 2023
+
+\subsubsection{Grandes phases du planning}
+	- Artefact Collecte et traitement de données 
+
+\noindent
+
+	- Artefact Architecture de l’application
+\noindent
+
+	- Artefact sécurité
+\noindent
+
+	- Artefact cours
+\noindent
+
+	- Artefact exercices 
+\noindent
+
+	- Artefact Détection des erreurs 
+\noindent
+
+	- Artefact recommandation \\
+	Pour la gestion du temps, on a des méthodes de planification prévisionnelle de projet tel que le diagramme de Gantt. Ce dit diagramme regroupe toutes les tâches, les durées et les ressources ordonnées de manière graduelle permettant à toute l’équipe de suivre son évolution. Il peut être modifié au fur et à mesure en fonction des délais respectés ou pas ainsi que des imprévus. 
+
+\textbf{→ Tâches du projet }
+%
+\begin{table}[hbtp]
+	\caption{Taches du projet}
+\begin{tabular}{|ll|ll|l}
+\cline{1-4}
+\multicolumn{1}{|l|}{\textit{\textbf{Phases}}}                                                                                                    & \textit{\textbf{Tâches}}                                      & \multicolumn{1}{l|}{\textit{\textbf{Durée (jours)}}} & \textit{\textbf{Prédécesseurs}} & \cellcolor[HTML]{FFFFFF} \\ \cline{1-4}
+\multicolumn{1}{|l|}{{\color[HTML]{333333} }}                                                                                                     & {\color[HTML]{333333} Etude de l’existant (A)}                & \multicolumn{1}{l|}{{\color[HTML]{333333} 7}}        & {\color[HTML]{333333} -}        &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{{\color[HTML]{333333} \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Création +\\ analyse\end{tabular}}}}}} & {\color[HTML]{333333} Cadrage du projet (B)}                  & \multicolumn{1}{l|}{{\color[HTML]{333333} 4}}        & {\color[HTML]{333333} -}        &                          \\ \cline{1-4}
+\multicolumn{1}{|l|}{{\color[HTML]{333333} }}                                                                                                     & {\color[HTML]{333333} Collecte et traitement des données (C)} & \multicolumn{1}{l|}{{\color[HTML]{333333} 7}}        & {\color[HTML]{333333} A}        &                          \\ \cline{2-4}
+%\multicolumn{1}{|l|}{{\color[HTML]{333333} }}                                                                                                     & {\color[HTML]{333333} Diagramme UML(D)}                       & \multicolumn{1}{l|}{{\color[HTML]{333333} 4}}        & {\color[HTML]{333333} A,B}      &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{\multirow{-3}{*}{{\color[HTML]{333333} \textit{\textbf{Elaboration}}}}}                                                      & {\color[HTML]{333333} Architecture de l’application (E)}      & \multicolumn{1}{l|}{{\color[HTML]{333333} 5}}        & {\color[HTML]{333333} D}        &                          \\ \cline{1-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Module des utilisateurs (F)                                   & \multicolumn{1}{l|}{10}                              & C                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Module des cours et exercices (G)                             & \multicolumn{1}{l|}{10}                              & C                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Module de détection d’erreur (H)                              & \multicolumn{1}{l|}{30}                              & C                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Module de recommandation (I)                                  & \multicolumn{1}{l|}{35}                              & H                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Module apprentissage (J)                                      & \multicolumn{1}{l|}{30}                              & I                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{\multirow{-6}{*}{\textit{\textbf{Implémentation}}}}                                                                          & Module IHM (K)                                                & \multicolumn{1}{l|}{30}                              & J                               &                          \\ \cline{1-4}
+\multicolumn{1}{|l|}{}                                                                                                                            & Assemblage (L)                                                & \multicolumn{1}{l|}{15}                              & K                               &                          \\ \cline{2-4}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{\textit{\textbf{Transition}}}}                                                                              & Test (M)                                                      & \multicolumn{1}{l|}{20}                              & L                               &                          \\ \cline{1-4}
+\multicolumn{2}{|l|}{\textbf{Total}}                                                                                                                                                                              & \multicolumn{2}{l|}{\textbf{217}}                                                      &                          \\ \cline{1-4}
+\end{tabular}
+\end{table}
+
+%\documentclass[xcolor=table]{beamer}
+%\begin{table}[]
+%\begin{tabular}{|l|l|l|l|l}
+%\cline{1-4}
+%\textit{\textbf{Phases}}                                                                                                    & \textit{\textbf{Tâches}}                                      & \textit{\textbf{Durée (jours)}} & \textit{\textbf{Prédécesseurs}} & \cellcolor[HTML]{FFFFFF} \\ \cline{1-4}
+%{\color[HTML]{333333} }                                                                                                     & {\color[HTML]{333333} Etude de l’existant (A)}                & {\color[HTML]{333333} 7}        & {\color[HTML]{333333} -}        &                          \\ \cline{2-4}
+%\multirow{-2}{*}{{\color[HTML]{333333} \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Création +\\ analyse\end{tabular}}}}} & {\color[HTML]{333333} Cadrage du projet (B)}                  & {\color[HTML]{333333} 4}        & {\color[HTML]{333333} -}        &                          \\ \cline{1-4}
+%{\color[HTML]{333333} }                                                                                                     & {\color[HTML]{333333} Collecte et traitement des données (C)} & {\color[HTML]{333333} 7}        & {\color[HTML]{333333} A}        &                          \\ \cline{2-4}
+%{\color[HTML]{333333} }                                                                                                     & {\color[HTML]{333333} Diagramme UML(D)}                       & {\color[HTML]{333333} 4}        & {\color[HTML]{333333} A,B}      &                          \\ \cline{2-4}
+%\multirow{-3}{*}{{\color[HTML]{333333} \textit{\textbf{Elaboration}}}}                                                      & {\color[HTML]{333333} Architecture de l’application (E)}      & {\color[HTML]{333333} 5}        & {\color[HTML]{333333} D}        &                          \\ \cline{1-4}
+%                                                                                                                            & Module des utilisateurs (F)                                   & 10                              & C                               &                          \\ \cline{2-4}
+%                                                                                                                            & Module des cours et exercices (G)                             & 10                              & C                               &                          \\ \cline{2-4}
+%                                                                                                                            & Module de détection d’erreur (H)                              & 30                              & C                               &                          \\ \cline{2-4}
+%                                                                                                                            & Module de recommandation (I)                                  & 35                              & H                               &                          \\ \cline{2-4}
+%                                                                                                                            & Module apprentissage (J)                                      & 30                              & I                               &                          \\ \cline{2-4}
+%\multirow{-6}{*}{\textit{\textbf{Implémentation}}}                                                                          & Module IHM (K)                                                & 30                              & J                               &                          \\ \cline{1-4}
+%                                                                                                                            & Assemblage (L)                                                & 15                              & K                               &                          \\ \cline{2-4}
+%\multirow{-2}{*}{\textit{\textbf{Transition}}}                                                                              & Test (M)                                                      & 20                              & L                               &                          \\ \cline{1-4}
+%\end{tabular}
+%\end{table}
+
+%
+Dans le cadre de notre projet, la planification de nos tâches nous a permis de ressortir le diagramme de Gantt suivant : 
+
+ \begin{figure}
+ 
+  \caption{Diagramme de GANTT}
+  \label{Diagramme de GANTT}
+ \end{figure}
+
+\subsubsection{Les points du rendez-vous}
+Les rendez-vous sont prévus une fois par mois durant toute la période de déroulement du projet.
+
+
+\subsection{Les moyens }
+\subsubsection{Moyens humains }
+	Ici, on nous retrouve directement, c’est-à-dire NJOMO NGUEKET Corine Rosane, étudiante en Management des Solutions Digitales et Data et stagiaire à Monglo Technologie, et M. KITIO Christian, directeur technique.  
+\subsubsection{Moyens matériels }
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+	\caption{Moyens matériels}
+\begin{tabular}{|l|l|l}
+\cline{1-2}
+\textit{\textbf{Ressources}}       & \textit{\textbf{Caractéristiques}}                                                                                                                                                                                                                                                                                                  & \cellcolor[HTML]{FFFFFF} \\ \cline{1-2}
+{\color[HTML]{333333} Ordinateurs} & {\color[HTML]{333333} \begin{tabular}[c]{@{}l@{}}-  Processeur AMD 6 core de fréquence 3.5GHz\\  -  Mémoire RAM de 16GO\\  -  Carte graphique NVIDIA GEFORCE \\      780 TI de 16GO avec une 8 GO de \\      mémoire vidéo dédié \\  -  Deux cartes wifi \\  -  Une carte Bluetooth\\  -  Les ports (USB, HDMI, JACK)\end{tabular}} &                          \\ \cline{1-2}
+{\color[HTML]{333333} Smartphone}  & {\color[HTML]{333333} \begin{tabular}[c]{@{}l@{}}-  RAM  \\  -  Processeur \\  -  Stockage \\  -  Os (Android et iOS)\\  -  Compatible avec les moteurs ARCore\end{tabular}}                                                                                                                                                        &                          \\ \cline{1-2}
+Modem wifi + connexion             & \begin{tabular}[c]{@{}l@{}}-  Nombre hôte, Bande passante  -  Marque\\  -  Fournisseur : CAMTEL\\  -  Forfait ; Fako Blue xl\end{tabular}                                                                                                                                                                                           &                          \\ \cline{1-2}
+\end{tabular}
+\end{table}
+
+%
+%\begin{table}[]
+% \caption{Moyens matériels}
+%\begin{tabular}{|ll|}
+%\hline
+%\multicolumn{1}{|l|}{\textbf{Ressources}}                                               & \textbf{Caractéristiques}                                                                                                                                                                                                                                                      \\ \hline
+%\multicolumn{1}{|l|}{Ordinateurs}                                                       & \begin{tabular}[c]{@{}l@{}}- Processeur AMD de fréquence 3.5GHz \\ - Memoire RAM de 16Go\\ - Carte graphique NVIDIA GEFORCE \\ 780 TI de 16Go avec 8Go de mémoire \\ de vidéo dédié \\ - Deux cartes wifi\\ - Une carte Bluetooth\\ - Les ports (USB, HDMI, JACK)\end{tabular} \\ \hline
+%\multicolumn{1}{|l|}{Smartphone}                                                        & \begin{tabular}[c]{@{}l@{}}- RAM\\ - Processeur\\ - Stockage\\ - OS (Android, IOS)\\ - Compatible avec les moteurs ARCore\end{tabular}                                                                                                                                         \\ \hline
+%\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Modem wifi \\ + connexion\end{tabular}} & \begin{tabular}[c]{@{}l@{}}- Nombre hote, Bande passante\\ - Marque \\ - Fournisseur: CAMTEL\\ - Forfait: Fako Blue xl\end{tabular}                                                                                                                                            \\ \hline
+%\multicolumn{2}{|l|}{Serveur git}                                                                                                                                                                                                                                                                                                                                        \\ \hline
+%\end{tabular}
+%\end{table}
+
+
+
+
+\subsection{Management du projet}
+	Pour la réalisation de ce projet, nous disposons des ressources humaines suivantes: 
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+ \centering
+	\caption{Equipe projet}
+\begin{tabular}{|l|l|l}
+\cline{1-2}
+\textbf{NOMS}                         & \textbf{FONCTION}                                              & \cellcolor[HTML]{FFFFFF} \\ \cline{1-2}
+{\color[HTML]{333333} Corine NJOMO}   & {\color[HTML]{333333} Ingénieur UI/UX, analyste et conception} &                          \\ \cline{1-2}
+{\color[HTML]{333333} YIYUEME Jordan} & {\color[HTML]{333333} Ingénieur réalité augmenté, stagiaire}   &                          \\ \cline{1-2}
+KITIO Christian                       & Consultant M.Tech, recadrer, testeur                           &                          \\ \cline{1-2}
+MONGLO Germain                        & Directeur M.Tech, testeur                                      &                          \\ \cline{1-2}
+\end{tabular}
+\end{table}
+
+\subsection{La communication}
+
+\subsubsection{Communication interne du projet}
+	- Collaboration via GitHub  \\
+	- Communication via telegram, Slack \\
+	- Réunion en présentielle ou en ligne (en fonction du contexte) pour l’évaluation de l’évolution du projet et les tests 
+
+
+\subsubsection{Communication externe }
+  \begin{itemize}
+    \item Avec les chercheurs en edutech \\
+    		- Par appel téléphonique \\
+			- Whatsapp \\
+			- Mail
+
+    \item Avec les élèves \\
+     La communication avec les élèves se fait uniquement en présentiel et via des tests d’aptitude que nous les faisons passer.
+
+    \item Avec les enseignants \\
+    La communication avec les enseignants se fait : \\
+		- via des appels téléphoniques, \\
+		- via des séances de travail en présentiel afin de recueillir des informations sur les échecs possibles des élèves de 6e.
+  \end{itemize}
+  
+  Cette première partie achevée, nous allons lever le voile de manière théorique sur la quintessence même de notre plateforme. Nous savons actuellement quel est son but, sa vision et ses prérogatives. Nanti de ces informations, nous pouvons dès lors rentrer dans le vif du sujet de la partie technique : l’analyse et la conception. 
